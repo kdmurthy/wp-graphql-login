@@ -38,8 +38,8 @@ add_action(
 					?>
 					<div class="error fade">
 						<p>
-							<strong><?php esc_html_e( 'NOTICE', 'wp-graphql-login' ); ?>:</strong> WPGraphQL Extensions for Login and Logout <?php echo esc_html( WPGRAPHQL_LOGIN_VERSION ); ?> <?php esc_html_e( 'requires a minimum of', 'wp-graphql-taxonomies' ); ?>
-							<strong>WP GraphQL <?php echo esc_html( WPGRAPHQL_LOGIN_WPGRAPHQL_MINIMUM_VERSION ); ?>+</strong> <?php esc_html_e( 'to function. Please install and activate the plugin', 'wp-graphql-taxonomies' ); ?>
+							<strong><?php esc_html_e( 'NOTICE', 'wp-graphql-login' ); ?>:</strong> WPGraphQL Extensions for Login and Logout <?php echo esc_html( WPGRAPHQL_LOGIN_VERSION ); ?> <?php esc_html_e( 'requires a minimum of', 'wp-graphql-login' ); ?>
+							<strong>WP GraphQL <?php echo esc_html( WPGRAPHQL_LOGIN_WPGRAPHQL_MINIMUM_VERSION ); ?>+</strong> <?php esc_html_e( 'to function. Please install and activate the plugin', 'wp-graphql-login' ); ?>
 						</p>
 					</div>
 					<?php
